@@ -1,0 +1,22 @@
+{
+    "name": "johnoye742/arch-gabriel",
+    "description": "A PHP package for messaging using sockets",
+    "type": "library",
+    "require": {
+        "predis/predis": "^2.2",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Johnoye742\\ArchGabriel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Oye",
+            "email": "olugbengajohnoye@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
