@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "predis/predis": "^2.2",
-        "vlucas/phpdotenv": "^5.6"
+        "vlucas/phpdotenv": "^5.6",
+        "php": "*"
     },
     "license": "GPL-3.0-or-later",
     "autoload": {
@@ -18,5 +19,7 @@
             "email": "olugbengajohnoye@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "prefer-stable": true
+
 }
