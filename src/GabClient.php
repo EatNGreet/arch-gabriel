@@ -38,6 +38,7 @@ class GabClient {
    * @param $callback
    */
   public function listen($on, $callback) : void {
+    // Loop forever
     while(true) {
         $data = "";
         socket_recv($this -> socket, $data, 1024, MSG_DONTWAIT);
